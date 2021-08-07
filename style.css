@@ -1,0 +1,2061 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.wrapper {
+    width:100%;
+    height: 100%;
+    max-width: 1920px;
+}
+
+.wrapperOne {
+    display: flex;
+    width:100%;
+    flex-wrap:wrap;
+    background-color: hsl(217, 28%, 20%);
+}
+
+.nav {
+    padding-top: 50px;
+    flex:100%;
+    display: flex;
+    flex-wrap:wrap;
+    padding-bottom:40px;
+}
+
+.logo {
+    flex:50%;
+}
+
+#logo {
+    width: 16%;
+    margin-left:5%;
+}
+
+#logo img {
+    width:100%;
+}
+
+.navBar {
+    flex:50%;
+}
+
+#navBar {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin:0 auto;
+    height: 100%;
+}
+
+#navBar nav {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#navBar a {
+    text-decoration:none;
+    font-size: 1em;
+    color:hsl(0, 0%, 80%);
+}
+
+#navBar a:hover {
+    text-decoration-line:underline;
+    color:hsl(0, 0%, 100%);   
+}
+
+.cta {
+    flex:100%;
+}
+
+.draw {
+   flex:100%;
+   padding-bottom: 80px;
+}
+
+#draw {
+    width:50%;
+    margin:0 auto;
+}
+
+#draw img {
+    width:100%;
+}
+
+.ctaTwo {
+    flex:100%;
+    background-image: url("images/bg-curvy-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#ctaTwo {
+    width: 50%;
+    margin:0 auto;
+    height: 590px;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 0px;
+    text-align: center;
+    color:hsl(0, 0%, 100%);
+    font-size: 2.6em;
+    padding-bottom: 40px;
+}
+
+#ctaTwo p {
+    font-size: 1.3em;
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+    color:hsl(0, 0%, 80%);
+    padding-bottom: 40px;
+}
+
+#ctaTwo button {
+    padding:15px 70px 15px 70px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size:1em;
+    background-color: hsl(198, 60%, 50%);
+}
+
+#ctaTwo button:hover {
+    background-color: hsl(176, 68%, 64%);
+}
+
+/*--start wrapperTwo---*/
+
+.wrapperTwo {
+    display: flex;
+    width:100%;
+    flex-wrap:wrap;
+    background-color: hsl(218, 28%, 13%); 
+}
+
+.acces {
+    flex:100%;
+    padding-bottom: 150px;
+}
+
+#acces {
+    width: 60%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.advan {
+    margin-top: 80px;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Svg_advan {
+    flex:100%;
+    text-align: center;
+}
+
+.tittle_advan {
+    flex:100%;
+}
+
+.tittle_advan h4 {
+    color:hsl(0, 0%, 100%);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+
+.p_advan {
+    flex:100%;
+    text-align: center;
+}
+
+.p_advan p {
+    width: 84%;
+    margin:0 auto;
+    font-size: 0.8em;
+    color:hsl(0, 0%, 80%);
+    line-height: 26px;
+}
+
+
+/*---start wrapperThree----*/
+
+.wrapperThree {
+    display: flex;
+    width:100%;
+    flex-wrap:wrap;
+    background-color: hsl(218, 28%, 13%);  
+}
+
+.drawTwo {
+    flex:50%;
+    padding-bottom: 120px;
+}
+
+#drawTwo {
+    width:70%;
+    margin:0 auto;
+}
+
+#drawTwo img {
+    width: 100%;
+}
+
+.ctaThree {
+    flex:50%;
+}
+
+#ctaThree {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#ctaThree h2 {
+  color:hsl(0, 0%, 100%);
+  font-size: 2.4em;
+  width: 60%;
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+
+#ctaThree p {
+    color:hsl(0, 0%, 80%);
+    font-size: 1.1em;
+    padding-bottom: 20px;
+    line-height: 34px;
+}
+
+.button_ctaThree {
+    width: 30%;
+    display: flex;
+    text-align: start;
+    flex-wrap: wrap;
+    padding-bottom: 6px;
+    border-bottom: 2px solid hsl(176, 68%, 64%);
+}
+
+.button_ctaThree:hover {
+    border-bottom: 2px solid hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
+}
+
+#buttonCtaThree {
+    flex:90%;
+}
+
+#buttonCtaThree button {
+    background:none;
+    border: none;
+    font-size: 1em;
+    color: hsl(176, 68%, 64%);
+}
+
+#buttonCtaThree button:hover {
+    color: hsl(0, 0%, 100%);
+}
+
+#svg_ctaThree {
+    flex:10%;
+}
+
+/*start wrapperfour---*/
+
+.wrapperFour {
+    display: flex;
+    width:100%;
+    flex-wrap:wrap;
+    background-color: hsl(218, 28%, 13%);   
+}
+
+.testimonio {
+    flex:100%;
+}
+
+#testimonio {
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url("images/bg-quotes.png");
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+}
+
+.testi {
+    background-color: hsl(219, 30%, 18%);
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.p_testi {
+    flex:100%;
+}
+
+.p_testi p {
+    padding-top: 40px;
+    width: 90%;
+    margin:0 auto;
+    color:hsl(0, 0%, 80%);
+    padding-bottom: 20px;
+}
+
+.img_testi {
+    flex:100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.img_testim {
+    flex: 20%;
+}
+
+.imgprofile {
+    width: 50%;
+    margin:0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.imgprofile img {
+    width: 100%;
+}
+
+.person_testi {
+    flex: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nombre_testi {
+    flex:100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.nombre_testi h4 {
+    color: hsl(0, 0%, 100%);
+}
+
+.company_testi {
+    flex:100%;
+}
+
+.company_testi  h5 {
+    color: hsl(0, 0%, 80%);
+    font-size: 0.6em;
+}
+
+/*--- wrapperFive -----*/
+
+.wrapperFive {
+    display: flex;
+    width:100%;
+    flex-wrap:wrap;
+    background-color: hsl(218, 28%, 13%);  
+}
+
+.early {
+    flex:100%;
+    height: 160px;
+}
+
+#early {
+    width: 60%;
+    margin:0 auto;
+}
+
+#earlyAcces {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    background-color: hsl(217, 28%, 20%);
+}
+
+#title_earlyAcces {
+    flex:100%;
+}
+
+#title_earlyAcces h2 {
+    font-size: 2.2em;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+    color:hsl(0, 0%, 100%);
+}
+
+#txt_earlyAcces {
+    flex:100%;
+}
+
+#txt_earlyAcces p {
+    text-align: center;
+    width: 80%;
+    margin:0 auto;
+    font-size: 1.1em;
+    color:hsl(0, 0%, 80%);
+    padding-bottom: 30px;
+}
+
+.cta_earlyAcces {
+    flex:100%;
+}
+
+form {
+   width: 70%;
+   margin:0 auto;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.email {
+   flex:60%;
+}
+
+input[type="email"] {
+    border:none;
+    border-radius: 50px;
+    background-color: white;
+    cursor: auto;
+    width: 100%;
+    margin:0 auto;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.submit {
+    flex:40%;
+    text-align: center;
+}
+
+input[type="submit"] {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color:hsl(0, 0%, 100%);
+    font-weight:bold ;
+    background-color: hsl(198, 60%, 50%);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.4s all;
+}
+
+input[type="submit"]:hover {
+    background-color: hsl(176, 68%, 64%);
+}
+
+
+/*----start wrapperSix---*/
+.wrapperSix {
+    display: flex;
+    width:100%;
+    flex-wrap:wrap;
+    padding-top: 220px;
+    padding-bottom: 80px;
+    background-color: hsl(216, 53%, 9%);  
+}
+
+#wrapperSix {
+    flex:100%;
+}
+
+.wrapper_footer {
+    width: 90%;
+    margin:0 auto;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.footer_lgo {
+    flex:25%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer_lgo {
+    flex:100%; 
+}
+
+#img_footerLgo {
+    width: 30%;
+}
+
+#img_footerLgo img {
+    width: 100%;
+}
+
+#footer_location {
+    flex:100%;
+    display: flex;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+#svg_footerLocation {
+    flex:10%;
+} 
+
+#txt_footerLocation {
+    flex:90%;
+    color:hsl(0, 0%, 80%);
+}
+
+#txt_footerLocation p {
+    width: 94%;
+    font-size: 0.9em;
+}
+
+.footer_contact {
+    flex:25%;
+    height: 100%;
+    display: flex;
+    padding-top: 70px;
+    flex-wrap: wrap;
+}
+
+#phone_footer,#email_footer {
+    flex:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#phone_footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.svg_phone, .svg_email {
+    flex: 20%;
+    text-align: center;
+}
+
+.txt_phone, .txt_email {
+    flex: 80%;
+}
+
+.txt_phone p, .txt_email p {
+   color:hsl(0, 0%, 80%);
+   font-size: 0.8em;
+}
+
+
+
+.footer_about {
+    flex:25%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 70px;
+    justify-content: space-between;
+}
+
+.about, .contact {
+    width: 40%;
+}
+
+.about nav, .contact nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.about a,.contact a {
+    color: hsl(0, 0%, 80%);
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.about a:hover,.contact a:hover {
+    color: hsl(0, 0%, 100%);
+}
+
+.footer_redes {
+    flex:25%;
+    padding-top: 100px;
+}
+
+#footer_redes {
+    width: 40%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+} 
+
+.foot_red {
+    width: 20%;
+}
+
+.foot_red svg path {
+   cursor: pointer;
+}
+
+.foot_red svg path:hover {
+    fill: hsl(176, 68%, 64%);
+ }
+
+ footer {
+     width: 100%;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     text-align: center;
+ }
+
+ footer a {
+     text-decoration: none;
+     color:hsl(198, 60%, 50%);
+ }
+
+ @media screen and (max-width:1600px) and (min-width:1500px) {
+
+    #ctaThree h2 {
+        font-size: 2.2em;
+    }
+
+    .button_ctaThree {
+        font-size: 1em;
+        width: 38%;
+    }
+
+ }
+
+
+ @media screen and (max-width:1499px) and (min-width:1400px) {
+
+    #ctaThree h2 {
+        font-size: 2.2em;
+    }
+
+    .button_ctaThree {
+        font-size: 1em;
+        width: 38%;
+    }
+
+ }
+
+ @media screen and (max-width:1399px) and (min-width:1300px) {
+
+    #ctaThree h2 {
+        font-size: 2.2em;
+        width: 80%;
+    }
+
+    .button_ctaThree {
+        font-size: 1em;
+        width: 42%;
+    }
+
+ }
+
+ @media screen and (max-width:1299px) and (min-width:1200px) {
+
+    h1 {
+        font-size: 2.4em;
+    }
+
+    #ctaTwo p {
+        font-size: 1.2em;
+    }
+
+    .wrapperThree {
+        padding-bottom: 100px;
+    }
+
+    .drawTwo {
+        padding-bottom: 0px;
+        padding-top: 70px;
+    }
+
+    #ctaThree h2 {
+        font-size: 2.2em;
+        width: 80%;
+    }
+
+    .button_ctaThree {
+        font-size: 1em;
+        width: 46%;
+    }
+
+ }
+
+
+ @media screen and (max-width:1199px) and (min-width:1100px) {
+
+    #logo {
+        width: 24%;
+        margin-left: 12%;
+    }
+
+    #navBar nav {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 2.2em;
+    }
+
+    #ctaTwo p {
+        font-size: 1.1em;
+    }
+
+    .wrapperThree {
+        padding-bottom: 100px;
+    }
+
+    .drawTwo {
+        padding-bottom: 0px;
+        padding-top: 90px;
+    }
+
+    #ctaThree h2 {
+        font-size: 2.2em;
+        width: 80%;
+    }
+
+    .button_ctaThree {
+        font-size: 1em;
+        width: 52%;
+    }
+
+    .p_testi p {
+        font-size:0.9em;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:1099px) and (min-width:1000px) {
+
+    #logo {
+        width: 24%;
+        margin-left: 12%;
+    }
+
+    #navBar nav {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    #ctaTwo p {
+        font-size: 1.1em;
+        width: 90%;
+    }
+
+    .wrapperThree {
+        padding-bottom: 100px;
+    }
+
+    .drawTwo {
+        padding-bottom: 0px;
+        padding-top: 110px;
+    }
+
+    #ctaThree h2 {
+        font-size: 2em;
+        width: 80%;
+    }
+
+    .button_ctaThree {
+        font-size: 1em;
+        width: 52%;
+    }
+
+    .p_testi p {
+        font-size:0.9em;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:999px) and (min-width:900px) {
+
+    #logo {
+        width: 24%;
+        margin-left: 12%;
+    }
+
+    #navBar nav {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    #ctaTwo p {
+        font-size: 1em;
+        width: 90%;
+    }
+
+    .wrapperThree {
+        padding-bottom: 100px;
+    }
+
+    .drawTwo {
+        padding-bottom: 0px;
+        padding-top: 110px;
+    }
+
+    #ctaThree h2 {
+        font-size: 2em;
+        width: 90%;
+    }
+
+    #ctaThree p {
+        font-size: 1em;
+    }
+
+    .button_ctaThree {
+        font-size: 1em;
+        width: 60%;
+    }
+
+    .p_testi p {
+        font-size:0.8em;
+        width: 90%;
+    }
+
+    #title_earlyAcces h2 {
+        font-size: 2em;
+        padding-top: 30px;
+    }
+
+    #txt_earlyAcces p {
+        font-size: 1em;
+    }
+
+    #footer_location {
+        padding-top: 60px;
+    }
+}
+
+
+@media screen and (max-width:899px) and (min-width:800px) {
+
+    #logo {
+        width: 30%;
+        margin-left: 12%;
+    }
+
+    #navBar nav {
+        width: 90%;
+    }
+
+    #draw {
+        width: 80%;
+    }
+
+    #ctaTwo {
+        width: 80%;
+        height: 400px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    #ctaTwo p {
+        font-size: 1em;
+        width: 80%;
+    }
+
+    /*---wrapperTwo---*/
+
+    #acces {
+        width: 80%;
+    }
+
+    .advan {
+        width: 100%;
+    }
+
+    .p_advan p {
+        width: 60%;
+    }
+
+    /*---start wrapperThree---*/
+
+    .wrapperThree {
+        padding-bottom: 100px;
+    }
+
+    .drawTwo {
+        flex:100%;
+    }
+
+    .ctaThree {
+        flex:100%;
+    }
+
+    .drawTwo {
+        padding-bottom: 0px;
+        padding-top: 110px;
+    }
+
+    #ctaThree h2 {
+        font-size: 2em;
+        width: 100%;
+    }
+
+    #ctaThree p {
+        font-size: 1em;
+    }
+
+    .button_ctaThree {
+        font-size: 1em;
+        width: 40%;
+    }
+
+    /*---wrapperFour---*/
+
+    #testimonio {
+        width: 60%;
+    }
+    .testi {
+        width: 100%;
+    }
+
+    .p_testi p {
+        font-size:1em;
+        width: 90%;
+    }
+
+    /*---wrapperFive---*/
+
+    #early {
+        width: 80%;
+    }
+
+    #title_earlyAcces h2 {
+        font-size: 2em;
+        padding-top: 30px;
+    }
+
+    #txt_earlyAcces p {
+        font-size: 1em;
+        color:hsl(0, 0%, 100%);
+    }
+
+    .email {
+        flex:100%;
+        padding-bottom: 20px;
+    }
+
+    input[type="email"] {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+    }
+
+    .submit {
+        flex:100%;
+    }
+
+    /*--wrapperSix---*/
+
+    .wrapperSix {
+        padding-top: 270px;
+    }
+
+    .wrapper_footer {
+        width: 70%;
+    }
+
+    .footer_lgo {
+        flex:100%;
+    }
+
+    #txt_footerLocation p {
+        font-size: 1em;
+    }
+
+    .footer_contact {
+        flex:100%;
+        padding-top: 20px;
+    }
+
+    .svg_phone, .svg_email {
+        flex: 10%;
+        text-align: start;
+    }
+    
+    .txt_phone, .txt_email {
+        flex: 90%;
+    }
+    
+    .footer_about {
+        flex:100%;
+        padding-top: 20px;
+    }
+
+    .about, .contact {
+        width: 100%;
+    }
+
+    .about {
+        padding-bottom: 20px;
+    }
+
+    .footer_redes {
+        flex:100%;
+    }
+
+    #footer_redes {
+        width: 40%;
+        justify-content: space-between;
+    }
+
+    .foot_red {
+        width: auto;
+    }
+}
+
+
+@media screen and (max-width:799px) and (min-width:700px) {
+
+    #logo {
+        width: 30%;
+        margin-left: 12%;
+    }
+
+    #navBar nav {
+        width: 90%;
+    }
+
+    #draw {
+        width: 80%;
+    }
+
+    #ctaTwo {
+        width: 80%;
+        height: 400px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    #ctaTwo p {
+        font-size: 1em;
+        width: 80%;
+    }
+
+    /*---wrapperTwo---*/
+
+    #acces {
+        width: 80%;
+    }
+
+    .advan {
+        width: 100%;
+    }
+
+    .p_advan p {
+        width: 60%;
+    }
+
+    /*---start wrapperThree---*/
+
+    .wrapperThree {
+        padding-bottom: 100px;
+    }
+
+    .drawTwo {
+        flex:100%;
+    }
+
+    .ctaThree {
+        flex:100%;
+    }
+
+    .drawTwo {
+        padding-bottom: 0px;
+        padding-top: 110px;
+    }
+
+    #ctaThree h2 {
+        font-size: 2em;
+        width: 100%;
+    }
+
+    #ctaThree p {
+        font-size: 1em;
+    }
+
+    .button_ctaThree {
+        font-size: 1em;
+        width: 40%;
+    }
+
+    /*---wrapperFour---*/
+
+    #testimonio {
+        width: 60%;
+    }
+    .testi {
+        width: 100%;
+    }
+
+    .p_testi p {
+        font-size:1em;
+        width: 90%;
+    }
+
+    /*---wrapperFive---*/
+
+    #early {
+        width: 80%;
+    }
+
+    #title_earlyAcces h2 {
+        font-size: 2em;
+        padding-top: 30px;
+    }
+
+    #txt_earlyAcces p {
+        font-size: 1em;
+        color:hsl(0, 0%, 100%);
+    }
+
+    .email {
+        flex:100%;
+        padding-bottom: 20px;
+    }
+
+    input[type="email"] {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+    }
+
+    .submit {
+        flex:100%;
+    }
+
+    /*--wrapperSix---*/
+
+    .wrapperSix {
+        padding-top: 270px;
+    }
+
+    .wrapper_footer {
+        width: 70%;
+    }
+
+    .footer_lgo {
+        flex:100%;
+    }
+
+    #txt_footerLocation p {
+        font-size: 1em;
+    }
+
+    .footer_contact {
+        flex:100%;
+        padding-top: 20px;
+    }
+
+    .svg_phone, .svg_email {
+        flex: 10%;
+        text-align: start;
+    }
+    
+    .txt_phone, .txt_email {
+        flex: 90%;
+    }
+    
+    .footer_about {
+        flex:100%;
+        padding-top: 20px;
+    }
+
+    .about, .contact {
+        width: 100%;
+    }
+
+    .about {
+        padding-bottom: 20px;
+    }
+
+    .footer_redes {
+        flex:100%;
+    }
+
+    #footer_redes {
+        width: 40%;
+        justify-content: space-between;
+    }
+
+    .foot_red {
+        width: auto;
+    }
+}
+
+
+@media screen and (max-width:699px) and (min-width:600px) {
+
+    #logo {
+        width: 30%;
+        margin-left: 12%;
+    }
+
+    #navBar nav {
+        width: 100%;
+    }
+
+    #draw {
+        width: 80%;
+    }
+
+    #ctaTwo {
+        width: 80%;
+        height: 400px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    #ctaTwo p {
+        font-size: 1em;
+        width: 80%;
+    }
+
+    /*---wrapperTwo---*/
+    .acces {
+        padding-bottom: 100px;
+    }
+
+    #acces {
+        width: 80%;
+    }
+
+    .advan {
+        width: 100%;
+    }
+
+    .p_advan p {
+        width: 60%;
+    }
+
+    /*---start wrapperThree---*/
+
+    .wrapperThree {
+        padding-bottom: 100px;
+    }
+
+    .drawTwo {
+        flex:100%;
+    }
+
+    .ctaThree {
+        flex:100%;
+    }
+
+    .drawTwo {
+        padding-bottom: 0px;
+        padding-top: 110px;
+    }
+
+    #ctaThree h2 {
+        font-size: 2em;
+        width: 100%;
+    }
+
+    #ctaThree p {
+        font-size: 1em;
+    }
+
+    .button_ctaThree {
+        font-size: 1em;
+        width: 46%;
+    }
+
+    /*---wrapperFour---*/
+
+    #testimonio {
+        width: 70%;
+        padding-bottom: 150px;
+    }
+    .testi {
+        width: 100%;
+    }
+
+    .p_testi p {
+        font-size:1em;
+        width: 90%;
+    }
+
+    /*---wrapperFive---*/
+
+    #early {
+        width: 80%;
+    }
+
+    #title_earlyAcces h2 {
+        font-size: 2em;
+        padding-top: 30px;
+    }
+
+    #txt_earlyAcces p {
+        font-size: 1em;
+        color:hsl(0, 0%, 100%);
+    }
+
+    .email {
+        flex:100%;
+        padding-bottom: 20px;
+    }
+
+    input[type="email"] {
+        width: 90%;
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    input[type="submit"] {
+        width: 90%;
+    }
+
+    .submit {
+        flex:100%;
+    }
+
+    /*--wrapperSix---*/
+
+    .wrapperSix {
+        padding-top: 290px;
+    }
+
+    .wrapper_footer {
+        width: 70%;
+    }
+
+    .footer_lgo {
+        flex:100%;
+    }
+
+    #txt_footerLocation p {
+        font-size: 1em;
+    }
+
+    .footer_contact {
+        flex:100%;
+        padding-top: 20px;
+    }
+
+    .svg_phone, .svg_email {
+        flex: 10%;
+        text-align: start;
+    }
+    
+    .txt_phone, .txt_email {
+        flex: 90%;
+    }
+    
+    .footer_about {
+        flex:100%;
+        padding-top: 20px;
+    }
+
+    .about, .contact {
+        width: 100%;
+    }
+
+    .about {
+        padding-bottom: 20px;
+    }
+
+    .footer_redes {
+        flex:100%;
+    }
+
+    #footer_redes {
+        width: 40%;
+        justify-content: space-between;
+    }
+
+    .foot_red {
+        width: auto;
+    }
+}
+
+
+@media screen and (max-width:599px) and (min-width:500px) {
+
+    #logo {
+        width: 40%;
+        margin-left: 12%;
+    }
+
+    #navBar {
+        width: 90%;
+    }
+
+    #navBar nav {
+        width: 100%;
+    }
+
+    #navBar a {
+        font-size: 0.9em;
+    }
+
+    #draw {
+        width: 80%;
+    }
+
+    #ctaTwo {
+        width: 80%;
+        height: 400px;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    #ctaTwo p {
+        font-size: 1em;
+        width: 90%;
+    }
+
+    /*---wrapperTwo---*/
+    .acces {
+        padding-bottom: 60px;
+    }
+
+    #acces {
+        width: 80%;
+    }
+
+    .advan {
+        width: 100%;
+    }
+
+    .p_advan p {
+        width: 60%;
+    }
+
+    /*---start wrapperThree---*/
+
+    .wrapperThree {
+        padding-bottom: 100px;
+    }
+
+    .drawTwo {
+        flex:100%;
+    }
+
+    .ctaThree {
+        flex:100%;
+    }
+
+    .drawTwo {
+        padding-bottom: 0px;
+        padding-top: 110px;
+    }
+
+    #ctaThree {
+        width: 80%;
+    }
+
+    #ctaThree h2 {
+        font-size: 2em;
+        width: 100%;
+    }
+
+    #ctaThree p {
+        font-size: 1em;
+    }
+
+    .button_ctaThree {
+        font-size: 1em;
+        width: 52%;
+    }
+
+    /*---wrapperFour---*/
+
+    #testimonio {
+        width: 70%;
+        padding-bottom: 150px;
+    }
+    .testi {
+        width: 100%;
+    }
+
+    .p_testi p {
+        font-size:1em;
+        width: 90%;
+    }
+
+    /*---wrapperFive---*/
+
+    #early {
+        width: 80%;
+    }
+
+    #title_earlyAcces h2 {
+        font-size: 2em;
+        padding-top: 30px;
+    }
+
+    #txt_earlyAcces p {
+        font-size: 1em;
+        color:hsl(0, 0%, 100%);
+    }
+
+    .email {
+        flex:100%;
+        padding-bottom: 20px;
+    }
+
+    input[type="email"] {
+        width: 100%;
+        text-align: center;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+
+    .submit {
+        flex:100%;
+    }
+
+    /*--wrapperSix---*/
+
+    .wrapperSix {
+        padding-top: 370px;
+    }
+
+    .wrapper_footer {
+        width: 70%;
+    }
+
+    .footer_lgo {
+        flex:100%;
+    }
+
+    #txt_footerLocation p {
+        font-size: 1em;
+    }
+
+    .footer_contact {
+        flex:100%;
+        padding-top: 20px;
+    }
+
+    .svg_phone, .svg_email {
+        flex: 10%;
+        text-align: start;
+    }
+    
+    .txt_phone, .txt_email {
+        flex: 90%;
+    }
+    
+    .footer_about {
+        flex:100%;
+        padding-top: 20px;
+    }
+
+    .about, .contact {
+        width: 100%;
+    }
+
+    .about {
+        padding-bottom: 20px;
+    }
+
+    .footer_redes {
+        flex:100%;
+    }
+
+    #footer_redes {
+        width: 40%;
+        justify-content: space-between;
+    }
+
+    .foot_red {
+        width: auto;
+    }
+}
+
+
+@media screen and (max-width:499px) and (min-width:400px) {
+
+    #logo {
+        width: 40%;
+        margin-left: 12%;
+    }
+
+    #navBar {
+        width: 90%;
+    }
+
+    #navBar nav {
+        width: 100%;
+    }
+
+    #navBar a {
+        font-size: 0.8em;
+    }
+
+    #draw {
+        width: 80%;
+    }
+
+    #ctaTwo {
+        width: 80%;
+        height: 400px;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+
+    #ctaTwo p {
+        font-size: 0.9em;
+        width: 90%;
+    }
+
+    /*---wrapperTwo---*/
+    .acces {
+        padding-bottom: 20px;
+    }
+
+    #acces {
+        width: 80%;
+    }
+
+    .advan {
+        width: 100%;
+    }
+
+    .p_advan p {
+        width: 80%;
+    }
+
+    /*---start wrapperThree---*/
+
+    .wrapperThree {
+        padding-bottom: 100px;
+    }
+
+    .drawTwo {
+        flex:100%;
+    }
+
+    .ctaThree {
+        flex:100%;
+    }
+
+    .drawTwo {
+        padding-bottom: 0px;
+        padding-top: 110px;
+    }
+
+    #ctaThree {
+        width: 80%;
+    }
+
+    #ctaThree h2 {
+        font-size: 1.8em;
+        width: 100%;
+    }
+
+    #ctaThree p {
+        font-size: 0.9em;
+    }
+
+    .button_ctaThree {
+        font-size: 1em;
+        width: 70%;
+    }
+
+    /*---wrapperFour---*/
+
+    #testimonio {
+        width: 80%;
+        padding-bottom: 150px;
+    }
+    .testi {
+        width: 100%;
+    }
+
+    .p_testi p {
+        font-size:0.9em;
+        width: 90%;
+    }
+
+    .nombre_testi h4 {
+        font-size: 0.9em;
+    }
+
+    .company_testi h5 {
+        font-size: 0.5em;
+    }
+
+    /*---wrapperFive---*/
+
+    #early {
+        width: 80%;
+    }
+
+    #title_earlyAcces h2 {
+        font-size: 1em;
+        padding-top: 30px;
+    }
+
+    #txt_earlyAcces p {
+        font-size: 0.9em;
+        width: 90%;
+        color:hsl(0, 0%, 80%);
+    }
+
+    form {
+        width: 80%;
+    }
+
+    .email {
+        flex:100%;
+        padding-bottom: 20px;
+    }
+
+    input[type="email"] {
+        width: 100%;
+        text-align: center;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+
+    .submit {
+        flex:100%;
+    }
+
+    /*--wrapperSix---*/
+
+    .wrapperSix {
+        padding-top: 300px;
+    }
+
+    .wrapper_footer {
+        width: 70%;
+    }
+
+    .footer_lgo {
+        flex:100%;
+    }
+
+    #txt_footerLocation p {
+        font-size: 1em;
+    }
+
+    .footer_contact {
+        flex:100%;
+        padding-top: 20px;
+    }
+
+    .svg_phone, .svg_email {
+        flex: 10%;
+        text-align: start;
+    }
+    
+    .txt_phone, .txt_email {
+        flex: 90%;
+    }
+    
+    .footer_about {
+        flex:100%;
+        padding-top: 20px;
+    }
+
+    .about, .contact {
+        width: 100%;
+    }
+
+    .about {
+        padding-bottom: 20px;
+    }
+
+    .footer_redes {
+        flex:100%;
+    }
+
+    #footer_redes {
+        width: 40%;
+        justify-content: space-between;
+    }
+
+    .foot_red {
+        width: auto;
+    }
+}
+
+@media screen and (max-width:399px) {
+
+    .logo {
+        flex:30%;
+    }
+
+    #logo {
+        width: 80%;
+        margin-left: 20%;
+    }
+
+    .navBar {
+        flex:70%;
+    }
+
+    #navBar {
+        width: 80%;
+    }
+
+    #navBar nav {
+        width: 100%;
+    }
+
+    #navBar a {
+        font-size: 0.7em;
+    }
+
+    .draw {
+        padding-bottom: 20px;
+    }
+
+    #draw {
+        width: 90%;
+    }
+
+    .ctaTwo {
+        background-image: url("images/bg-curvy-mobile.svg");
+        background-size: cover;
+    }
+
+    #ctaTwo {
+        width: 80%;
+        height: 360px;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+
+    #ctaTwo p {
+        font-size: 0.8em;
+        width: 92%;
+    }
+
+    #ctaTwo button {
+        font-size: 0.9em;
+    }
+
+    /*---wrapperTwo---*/
+    .acces {
+        padding-bottom: 0px;
+    }
+
+    #acces {
+        width: 80%;
+    }
+
+    .advan {
+        width: 100%;
+    }
+
+    .p_advan p {
+        width: 92%;
+        font-size: 0.7em;
+    }
+
+    /*---start wrapperThree---*/
+
+    .wrapperThree {
+        padding-bottom: 100px;
+    }
+
+    .drawTwo {
+        flex:100%;
+    }
+
+    .ctaThree {
+        flex:100%;
+    }
+
+    .drawTwo {
+        padding-bottom: 0px;
+        padding-top: 110px;
+    }
+
+    #ctaThree {
+        width: 80%;
+    }
+
+    #ctaThree h2 {
+        font-size: 0.9em;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    #ctaThree p {
+        font-size: 0.8em;
+    }
+
+    .button_ctaThree {
+        font-size: 0.8em;
+        width: 64%;
+    }
+
+    /*---wrapperFour---*/
+
+    #testimonio {
+        width: 80%;
+        padding-bottom: 150px;
+    }
+    .testi {
+        width: 100%;
+    }
+
+    .p_testi p {
+        font-size:0.7em;
+        line-height: 20px;
+        width: 90%;
+    }
+
+    .nombre_testi h4 {
+        font-size: 0.9em;
+    }
+
+    .company_testi h5 {
+        font-size: 0.5em;
+    }
+
+    /*---wrapperFive---*/
+
+    #early {
+        width: 90%;
+    }
+
+    #title_earlyAcces h2 {
+        font-size: 1em;
+        padding-top: 30px;
+    }
+
+    #txt_earlyAcces p {
+        font-size: 0.9em;
+        width: 90%;
+        color:hsl(0, 0%, 80%);
+    }
+
+    form {
+        width: 80%;
+    }
+
+    .email {
+        flex:100%;
+        padding-bottom: 20px;
+    }
+
+    input[type="email"] {
+        width: 100%;
+        text-align: center;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+
+    .submit {
+        flex:100%;
+    }
+
+    /*--wrapperSix---*/
+
+    .wrapperSix {
+        padding-top: 300px;
+    }
+
+    .wrapper_footer {
+        width: 70%;
+    }
+
+    .footer_lgo {
+        flex:100%;
+    }
+
+    #txt_footerLocation p {
+        font-size: 1em;
+    }
+
+    .footer_contact {
+        flex:100%;
+        padding-top: 20px;
+    }
+
+    .svg_phone, .svg_email {
+        flex: 10%;
+        text-align: start;
+    }
+    
+    .txt_phone, .txt_email {
+        flex: 90%;
+    }
+    
+    .footer_about {
+        flex:100%;
+        padding-top: 20px;
+    }
+
+    .about, .contact {
+        width: 100%;
+    }
+
+    .about {
+        padding-bottom: 20px;
+    }
+
+    .footer_redes {
+        flex:100%;
+    }
+
+    #footer_redes {
+        width: 40%;
+        justify-content: space-between;
+    }
+
+    .foot_red {
+        width: auto;
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
+}
+
+
+
