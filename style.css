@@ -3,6 +3,7 @@
     padding:0px;
     box-sizing:border-box;
     font-family: 'Raleway', sans-serif;
+    border:none;
 }
 
 .wrapper {
@@ -140,6 +141,8 @@ h1 {
     width:100%;
     flex-wrap:wrap;
     background-color: hsl(218, 28%, 13%); 
+    border: 1px solid hsl(218, 28%, 13%);
+    border-top: none;
 }
 
 .acces {
@@ -370,6 +373,7 @@ h1 {
     width:100%;
     flex-wrap:wrap;
     background-color: hsl(218, 28%, 13%);  
+    border: 2px solid transparent;
 }
 
 .early {
