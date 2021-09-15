@@ -16,7 +16,7 @@
     display: flex;
     width:100%;
     flex-wrap:wrap;
-    background-color: hsl(217, 28%, 20%);
+    background-color: hsl(217, 28%, 15%);
 }
 
 .nav {
@@ -391,7 +391,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 40px;
-    background-color: hsl(217, 28%, 20%);
+    background-color: hsl(217, 28%, 15%);
 }
 
 #title_earlyAcces {
@@ -648,6 +648,9 @@ input[type="submit"]:hover {
 
 
  @media screen and (max-width:1499px) and (min-width:1400px) {
+     #logo {
+         width: 21%;
+     }
 
     #ctaThree h2 {
         font-size: 2.2em;
